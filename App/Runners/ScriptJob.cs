@@ -29,15 +29,27 @@ namespace WebApplication2.App.Runners
         public Task Execute(IJobExecutionContext context)
         {
             var jdp = context.JobDetail.JobDataMap;
-            var appid = jdp.GetString(argsEnum.processid.ToString());
+            var appid = jdp.GetString(argsEnum.appid.ToString());
             var jobid = new JobKey(jdp.GetString(argsEnum.jobIdentity.ToString()));
             return Task.Run(()=> {
-                if (CronAppHelper.getRunning(appid, jobid)==false) {
-                    CronAppHelper.setRunning(appid, jobid);
-                    new ProcessRunner().Run(getArgs(context.JobDetail.JobDataMap)).WaitForExit();
-                    CronAppHelper.stopRunning(appid, jobid);
-                }
+                try
+                {
+                    if (CronAppHelper.getRunning(appid, jobid) == false)
+                    {
+                        CronAppHelper.setRunning(appid, jobid);
+                        Logger.Log("Running " + jobid);
 
+                        new ProcessRunner().Run(getArgs(context.JobDetail.JobDataMap)).WaitForExit();
+
+                        CronAppHelper.stopRunning(appid, jobid);
+
+                        Logger.Log("Stopping " + jobid);
+
+                    }
+                }catch(Exception ex)
+                {
+                    Logger.Log(ex);
+                }
 
             });
         }

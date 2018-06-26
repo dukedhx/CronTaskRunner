@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebApplication2.App.Runners
 {
-    public class ScripJobDetail
+    public class ScriptJobDetail
     {
 
 

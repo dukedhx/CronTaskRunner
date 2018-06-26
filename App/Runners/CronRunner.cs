@@ -16,7 +16,7 @@ namespace WebApplication2.App.Runners
         
         public Boolean isRunning { get => scheduler?.IsStarted??false; }
         private IScheduler scheduler;
-        private Dictionary<JobKey, ScripJobDetail> SJDDict ;
+        public Dictionary<JobKey, ScriptJobDetail> SJDDict ;
 
         public String ID;
 
@@ -28,7 +28,7 @@ namespace WebApplication2.App.Runners
 
         protected void RegisterCronRunner()
         {
-            CronAppHelper.RegisterCronRunner(ID, SJDDict);
+            CronAppHelper.RegisterCronRunner(ID, this);
 
 
         }
@@ -36,7 +36,7 @@ namespace WebApplication2.App.Runners
         public CronRunner(String ID)
         {
             this.ID = ID;
-            SJDDict = new Dictionary<JobKey, ScripJobDetail>();
+            SJDDict = new Dictionary<JobKey, ScriptJobDetail>();
             RegisterCronRunner();
         }
 
@@ -83,7 +83,7 @@ namespace WebApplication2.App.Runners
                     .StartNow()
                     .Build();
                 scheduler.ScheduleJob(jobDetail, trigger).Wait();
-                SJDDict.Add(jobDetail.Key, new ScripJobDetail() { scriptJobConfig=config});
+                SJDDict.Add(jobDetail.Key, new ScriptJobDetail() { scriptJobConfig=config});
 
                return scheduler.Start();
               

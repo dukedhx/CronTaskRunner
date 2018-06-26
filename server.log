@@ -1,0 +1,376 @@
+2018/06/26 13:14:56.595|INFO|Default Quartz.NET properties loaded from embedded resource file 
+2018/06/26 13:14:56.706|DEBUG|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018/06/26 13:14:56.738|INFO|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018/06/26 13:14:56.764|INFO|Quartz Scheduler v.3.0.5.0 created. 
+2018/06/26 13:14:56.764|INFO|RAMJobStore initialized. 
+2018/06/26 13:14:56.784|INFO|Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018/06/26 13:14:56.792|INFO|Quartz scheduler 'DefaultQuartzScheduler' initialized 
+2018/06/26 13:14:56.792|INFO|Quartz scheduler version: 3.0.5.0 
+2018/06/26 13:14:58.009|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 13:14:58.009|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:15:00.032|DEBUG|Producing instance of Job 'DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:15:00.047|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:15:00.063|DEBUG|Calling Execute on job DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc 
+2018/06/26 13:15:27.953|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:15:29.023|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:15:56.083|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:16:22.708|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:16:51.373|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:17:19.536|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:17:47.982|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:18:00.001|DEBUG|Producing instance of Job 'DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:18:00.001|DEBUG|Calling Execute on job DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc 
+2018/06/26 13:18:00.001|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:18:06.481|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:18:34.011|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:19:00.005|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:19:23.332|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:19:47.725|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:20:13.746|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:20:40.748|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:21:00.009|DEBUG|Producing instance of Job 'DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:21:00.025|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:21:00.040|DEBUG|Calling Execute on job DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc 
+2018/06/26 13:21:00.149|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:21:26.213|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:21:51.535|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:22:20.571|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:22:47.569|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:23:12.866|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:23:40.401|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:24:00.004|DEBUG|Producing instance of Job 'DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:24:00.025|DEBUG|Calling Execute on job DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc 
+2018/06/26 13:24:00.025|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:24:00.175|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:24:24.475|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:24:52.388|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:25:17.234|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:25:41.154|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:26:04.754|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:26:28.010|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:26:52.237|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:27:00.035|DEBUG|Producing instance of Job 'DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:27:00.051|DEBUG|Calling Execute on job DEFAULT.ef5bd5fa-1b5e-4beb-8838-d4de24572ccc 
+2018/06/26 13:27:00.051|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:27:00.175|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:27:27.431|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:27:50.982|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:28:17.722|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:28:44.293|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:38:16.151|INFO|Default Quartz.NET properties loaded from embedded resource file 
+2018/06/26 13:38:16.264|DEBUG|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018/06/26 13:38:16.285|INFO|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018/06/26 13:38:16.303|INFO|Quartz Scheduler v.3.0.5.0 created. 
+2018/06/26 13:38:16.303|INFO|RAMJobStore initialized. 
+2018/06/26 13:38:16.323|INFO|Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018/06/26 13:38:16.330|INFO|Quartz scheduler 'DefaultQuartzScheduler' initialized 
+2018/06/26 13:38:16.330|INFO|Quartz scheduler version: 3.0.5.0 
+2018/06/26 13:38:16.398|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 13:38:16.408|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:38:42.699|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:39:00.014|DEBUG|Producing instance of Job 'DEFAULT.5aac71de-4e11-4c4a-a5ae-ddd12d237950', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:39:00.033|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:39:00.098|DEBUG|Calling Execute on job DEFAULT.5aac71de-4e11-4c4a-a5ae-ddd12d237950 
+2018/06/26 13:39:00.273|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:39:28.385|INFO|Default Quartz.NET properties loaded from embedded resource file 
+2018/06/26 13:39:28.477|DEBUG|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018/06/26 13:39:28.494|INFO|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018/06/26 13:39:28.510|INFO|Quartz Scheduler v.3.0.5.0 created. 
+2018/06/26 13:39:28.518|INFO|RAMJobStore initialized. 
+2018/06/26 13:39:28.528|INFO|Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018/06/26 13:39:28.528|INFO|Quartz scheduler 'DefaultQuartzScheduler' initialized 
+2018/06/26 13:39:28.542|INFO|Quartz scheduler version: 3.0.5.0 
+2018/06/26 13:39:28.600|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 13:39:28.606|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:39:28.606|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 13:39:28.606|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:39:52.358|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:40:00.020|DEBUG|Producing instance of Job 'DEFAULT.baa620d1-eb24-4d09-90ea-15aeb8d039da', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:40:00.036|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:40:00.076|DEBUG|Calling Execute on job DEFAULT.baa620d1-eb24-4d09-90ea-15aeb8d039da 
+2018/06/26 13:40:03.302|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:40:26.976|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:40:51.730|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:41:00.004|DEBUG|Producing instance of Job 'DEFAULT.baa620d1-eb24-4d09-90ea-15aeb8d039da', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:41:00.028|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:41:00.028|DEBUG|Calling Execute on job DEFAULT.baa620d1-eb24-4d09-90ea-15aeb8d039da 
+2018/06/26 13:41:15.108|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:41:27.639|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:42:14.663|INFO|Default Quartz.NET properties loaded from embedded resource file 
+2018/06/26 13:42:14.754|DEBUG|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018/06/26 13:42:14.769|INFO|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018/06/26 13:42:14.782|INFO|Quartz Scheduler v.3.0.5.0 created. 
+2018/06/26 13:42:14.790|INFO|RAMJobStore initialized. 
+2018/06/26 13:42:14.790|INFO|Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018/06/26 13:42:14.808|INFO|Quartz scheduler 'DefaultQuartzScheduler' initialized 
+2018/06/26 13:42:14.808|INFO|Quartz scheduler version: 3.0.5.0 
+2018/06/26 13:42:14.872|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 13:42:14.872|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:42:14.872|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 13:42:14.888|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:42:40.586|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 13:43:00.001|DEBUG|Producing instance of Job 'DEFAULT.d1d42539-a6f2-461a-8907-d89af0a1fadb', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 13:43:00.016|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 13:43:00.112|DEBUG|Calling Execute on job DEFAULT.d1d42539-a6f2-461a-8907-d89af0a1fadb 
+2018/06/26 13:43:00.237|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 13:43:26.698|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:26:15.385|INFO|Default Quartz.NET properties loaded from embedded resource file 
+2018/06/26 14:26:15.473|DEBUG|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018/06/26 14:26:15.490|INFO|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018/06/26 14:26:15.503|INFO|Quartz Scheduler v.3.0.5.0 created. 
+2018/06/26 14:26:15.503|INFO|RAMJobStore initialized. 
+2018/06/26 14:26:15.520|INFO|Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018/06/26 14:26:15.520|INFO|Quartz scheduler 'DefaultQuartzScheduler' initialized 
+2018/06/26 14:26:15.535|INFO|Quartz scheduler version: 3.0.5.0 
+2018/06/26 14:26:15.598|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 14:26:15.598|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:26:15.598|INFO|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018/06/26 14:26:15.615|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:26:39.638|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:27:00.038|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:27:00.070|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:27:00.070|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:27:00.093|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:27:00.093|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:27:00.093|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:27:00.260|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:27:00.288|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:27:24.100|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:27:47.155|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:28:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:28:00.009|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:28:00.009|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:28:00.154|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:28:29.320|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:28:58.001|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:29:00.002|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:29:00.027|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:29:00.027|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:29:00.172|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:29:23.476|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:29:48.241|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:30:00.001|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:30:00.001|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:30:00.001|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:30:00.041|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:30:00.053|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:30:00.053|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:30:00.171|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:30:00.201|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:30:26.633|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:30:53.539|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:31:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:31:00.001|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:31:00.001|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:31:00.144|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:31:29.634|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:31:53.821|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:32:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:32:00.001|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:32:00.001|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:32:00.121|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:32:25.516|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:32:53.319|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:33:00.004|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:33:00.039|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:33:00.039|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:33:00.089|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:33:00.116|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:33:00.116|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:33:00.231|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:33:00.231|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:33:25.779|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:33:53.939|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:34:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:34:00.009|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:34:00.009|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:34:00.161|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:34:29.341|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:34:54.589|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:35:00.004|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:35:00.029|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:35:00.029|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:35:00.209|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:35:25.446|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:35:49.776|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:36:00.001|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:36:00.009|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:36:00.044|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:36:00.084|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:36:00.084|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:36:00.084|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:36:00.196|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:36:00.196|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:36:27.666|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:36:56.169|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:37:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:37:00.024|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:37:00.024|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:37:00.151|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:37:27.916|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:37:57.294|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:38:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:38:00.001|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:38:00.001|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:38:00.129|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:38:25.459|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:38:53.546|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:39:00.001|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:39:00.001|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:39:00.001|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:39:00.074|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:39:00.086|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:39:00.086|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:39:00.206|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:39:00.224|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:39:26.164|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:39:54.021|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:40:00.004|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:40:00.034|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:40:00.034|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:40:00.179|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:40:24.651|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:40:54.304|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:41:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:41:00.001|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:41:00.011|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:41:00.146|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:41:26.955|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:41:56.630|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:42:00.000|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:42:00.020|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:42:00.020|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:42:00.040|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:42:00.085|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:42:00.085|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:42:00.192|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:42:00.232|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:42:24.885|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:42:53.832|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:43:00.010|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:43:00.041|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:43:00.041|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:43:00.137|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:43:26.567|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:43:52.967|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:44:00.012|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:44:00.012|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:44:00.012|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:44:00.142|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:44:26.216|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:44:55.366|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:45:00.033|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:45:00.049|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:45:00.049|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:45:00.098|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:45:00.129|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:45:00.129|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:45:00.248|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:45:00.266|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:45:28.364|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:45:55.534|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:46:00.012|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:46:00.012|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:46:00.012|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:46:00.157|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:46:29.270|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:46:58.845|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:47:00.015|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:47:00.030|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:47:00.030|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:47:00.142|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:47:27.152|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:47:56.072|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:48:00.015|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:48:00.015|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:48:00.033|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:48:00.015|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:48:00.038|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:48:00.038|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:48:00.170|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:48:00.227|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:48:29.972|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:48:58.157|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:49:00.007|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:49:00.022|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:49:00.022|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:49:00.149|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:49:25.286|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:49:54.425|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:50:00.010|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:50:00.026|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:50:00.026|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:50:00.218|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:50:24.959|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:50:51.100|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:51:00.039|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:51:00.055|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:51:00.070|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:51:00.073|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:51:00.073|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:51:00.080|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:51:00.203|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:51:00.203|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:51:29.415|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:51:54.913|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:52:00.012|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:52:00.043|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:52:00.043|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:52:00.157|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:52:25.411|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:52:54.291|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:53:00.014|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:53:00.014|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:53:00.014|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:53:00.094|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:53:23.374|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:53:47.295|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:54:00.003|DEBUG|Producing instance of Job 'DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:54:00.034|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:54:00.034|DEBUG|Calling Execute on job DEFAULT.b3b26b6d-2b2c-40ab-bd77-56b1af6f10cc 
+2018/06/26 14:54:00.081|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:54:00.083|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:54:00.083|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:54:00.171|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:54:00.179|DEBUG|Trigger instruction : NoInstruction 
+2018/06/26 14:54:25.519|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:54:54.099|DEBUG|Batch acquisition of 1 triggers 
+2018/06/26 14:55:00.001|DEBUG|Producing instance of Job 'DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729', class=WebApplication2.App.Runners.ScriptJob 
+2018/06/26 14:55:00.016|DEBUG|Calling Execute on job DEFAULT.708648dc-7176-4a76-90f7-d7b4cb86a729 
+2018/06/26 14:55:00.016|DEBUG|Batch acquisition of 0 triggers 
+2018/06/26 14:55:00.126|DEBUG|Trigger instruction : NoInstruction 
