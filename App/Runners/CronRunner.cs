@@ -40,12 +40,26 @@ namespace WebApplication2.App.Runners
             RegisterCronRunner();
         }
 
+        public Task Resume(JobKey processid)
+        {
+            if (scheduler == null || !scheduler.IsStarted || !SJDDict.ContainsKey(processid)) return null;
+            
+            return scheduler.ResumeJob(processid);
+
+        }
+
         public Task Stop(JobKey processid)
         {
+            return Stop(processid, false);
+        }
+
+
+        public Task Stop(JobKey processid,Boolean pause=false)
+        {
             if (scheduler == null|| !scheduler.IsStarted || !SJDDict.ContainsKey(processid)) return null;
-            var dtask=scheduler.DeleteJob(processid);
+            if(!pause)
             SJDDict.Remove(processid);
-            return dtask;
+            return pause ? scheduler.PauseJob(processid) : scheduler.DeleteJob(processid);
 
         }
             public Task Run(ScriptJobConfig config)
@@ -91,5 +105,7 @@ namespace WebApplication2.App.Runners
             
             
         }
+
+       
     }
 }

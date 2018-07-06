@@ -11,7 +11,7 @@ using YamlDotNet.RepresentationModel;
 
 namespace WebApplication2.App.CronJobApp
 {
-    public class CronJobApp : Runner<String, bool, IEnumerable< Task>>
+    public class CronJobApp : Runner<String, String, IEnumerable<Task>>
     {
         
 
@@ -38,12 +38,61 @@ namespace WebApplication2.App.CronJobApp
             return tlist;
         }
 
-        
+        public void StopAll()
+        {
+           
+            
+            Task.WaitAll( CronAppHelper.stopAllRunners()?.ToArray());
 
-        public IEnumerable<Task> Stop(bool id)
+        }
+
+        public void Start(String path)
+        {
+
+
+            Task.WaitAll(Run(path)?.ToArray());
+
+        }
+
+        public void StopAllAndRemove()
         {
             
-            throw new NotImplementedException();
+            Task.WaitAll( CronAppHelper.resumeAllRunners()?.ToArray());
+
         }
+
+        public void Resume(String id)
+        {
+            Task.WaitAll(CronAppHelper.resumeRunner(id)?.ToArray());
+
+        }
+
+        public void ResumeAll()
+        {
+            Task.WaitAll(CronAppHelper.resumeAllRunners()?.ToArray());
+
+        }
+
+        public void Pause(String id)
+        {
+            Task.WaitAll( CronAppHelper.stopRunner(id,true)?.ToArray());
+
+        }
+
+        public void PauseAll()
+        {
+            Task.WaitAll(CronAppHelper.pauseAllRunners()?.ToArray());
+
+        }
+
+
+
+        public IEnumerable<Task> Stop(String id)
+        {
+            return CronAppHelper.stopRunner(id)?.ToArray();
+            
+        }
+
+        
     }
 }

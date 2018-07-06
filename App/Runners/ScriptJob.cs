@@ -41,7 +41,7 @@ namespace WebApplication2.App.Runners
 
                         new ProcessRunner().Run(getArgs(context.JobDetail.JobDataMap)).WaitForExit();
 
-                        CronAppHelper.stopRunning(appid, jobid);
+                        CronAppHelper.unsetRunning(appid, jobid);
 
                         Logger.Log("Stopping " + jobid);
 
